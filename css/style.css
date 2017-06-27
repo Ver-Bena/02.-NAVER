@@ -1,6 +1,6 @@
 /* Initialize */
 
-* { margin: 0; padding: 0; }
+* { margin: 0; padding: 0; text-decoration: none; }
 li { list-style: none; }
 
 .text-bold { font-weight: bold; }
@@ -296,7 +296,7 @@ li { list-style: none; }
     width: 55px; height: 16px;
     background-image: url(../img/sp_nav_v170523.png);
     background-position: 0 -77px;
-    margin-top: 16px; margin-left: 10px;
+    margin-top: 14px; margin-left: 10px;
 }
 
 .rank {
@@ -346,11 +346,9 @@ li { list-style: none; }
 .section article {
     background-color: #fff;
     border: 1px solid #dee3eb;
-    margin-bottom: 8px;
 }
 
 .left-section article {
-    margin-right: 7px;
     width: 740px;
     box-sizing: border-box;
 }
@@ -364,8 +362,8 @@ li { list-style: none; }
 
 .ad {
     display: inline-block;
+    top: 0; left: 0;
     width: 740px; height: 120px;
-    margin-right: 8px; margin-bottom: 8px;
     border: 1px solid #dee3eb;
 }
 
@@ -447,6 +445,7 @@ li { list-style: none; }
 }
 
 .news-stand {
+    top: 0; left: 0;
     height: 246px;
     position: relative;
 }
@@ -480,6 +479,7 @@ li { list-style: none; }
 }
 
 .article {
+    top: 0; left: 0;
     height: 882px;
 }
 
@@ -488,7 +488,6 @@ li { list-style: none; }
 }
 
 .news-stand-line {
-    position: absolute;
     background-color: #dee3eb;
     width: 740px; height: 1px;
 }
@@ -511,7 +510,7 @@ li { list-style: none; }
 /* Secton(Right) */
 
 .my-info {
-    height: 118px;
+    height: 120px;
     font-size: 11px;
     position: relative;
 }
@@ -519,6 +518,8 @@ li { list-style: none; }
 .my-info p {
     position: absolute;
     color: #888;
+    font-size: 12px;
+    letter-spacing: -1px;
 }
 
 .id-pw div {
@@ -528,7 +529,7 @@ li { list-style: none; }
 }
 
 .id-pw input {
-    font-size: 11px;
+    font-size: 12px;
     border: 0;
     background-color: #f9fafc;
     width: 90%;
@@ -544,33 +545,68 @@ li { list-style: none; }
     border: 0;
 }
 
+.security {
+    position: absolute;
+    top: 14px; right: 16px;
+}
+
 .input-info {
     position: absolute;
-    top: 20px; left: 15px;
+    top: 15px; left: 15px;
 }
 
 .input-info>div {
     float: left;
 }
 
-.security div {
-    position: absolute;
+.security>div {
     width: 75px; height: 32px;
     border: solid 1px #f1f3f6;
     background-color: #fff;
     color: #888;
 }
 
-.ip-security {
-    top: 19px; right: 13px;
+.security a {
+    letter-spacing: -1px;
+    color: #888;
+}
+
+.check-ip {
+    position: relative;
+}
+
+.check-ip a {
+    position: absolute;
+    top: 9px; left: 10px;
+}
+
+.sec-on {
+    display: inline-block;
+    position: absolute;
+    top: 12px; left: 43px;
+    width: 26px; height: 12px;
+    background-image: url(https://s.pstatic.net/static/www/img/2017/sp_login_v170424.png);
+    background-position: 262px -156px;
 }
 
 .once-login {
-    top: 52px; right: 13px;
+    position: relative;
+}
+
+.once-login a {
+    position: absolute;
+    top: 6px; left: 5px;
 }
 
 .maintain-login {
     top: 92px; left: 30px;
+}
+
+.check {
+    display: inline-block;
+    width: 15px; height: 15px;
+    background-image: url(https://s.pstatic.net/static/www/img/2017/sp_login_v170424.png);
+    background-position: 273px -178px;
 }
 
 .join {
@@ -587,10 +623,10 @@ li { list-style: none; }
 
 .mini-ad {
     width: 330px; height: 150px;
-    margin-bottom: 7px;
 }
 
 .shopping-ad {
+    top: 0; left: 0;
     height: 884px;
 }
 
@@ -626,7 +662,7 @@ li { list-style: none; }
 }
 
 .top-footer li {
-    float: left;   
+    float: left;
 }
 
 .top-footer .text-bold {
