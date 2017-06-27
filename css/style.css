@@ -336,7 +336,7 @@ li { list-style: none; }
 }
 
 .section .wrapper {
-    padding: 8px;
+    padding: 8px 10px 0;
 }
 
 .section section {
@@ -346,6 +346,10 @@ li { list-style: none; }
 .section article {
     background-color: #fff;
     border: 1px solid #dee3eb;
+}
+
+.left-section {
+    margin-right: 8px;
 }
 
 .left-section article {
@@ -362,13 +366,13 @@ li { list-style: none; }
 
 .ad {
     display: inline-block;
-    top: 0; left: 0;
+    margin-bottom: 5px;
     width: 740px; height: 120px;
-    border: 1px solid #dee3eb;
 }
 
 .section .union-news {
     height: 44px;
+    margin-bottom: 8px;
 }
 
 .union-news ul {
@@ -445,9 +449,9 @@ li { list-style: none; }
 }
 
 .news-stand {
-    top: 0; left: 0;
     height: 246px;
     position: relative;
+    margin-bottom: 8px;
 }
 
 .news-stand-title {
@@ -479,12 +483,13 @@ li { list-style: none; }
 }
 
 .article {
-    top: 0; left: 0;
+    margin-bottom: 8px;
     height: 882px;
 }
 
 .last-article {
     height: 130px;
+    margin-bottom: 8px;
 }
 
 .news-stand-line {
@@ -493,10 +498,12 @@ li { list-style: none; }
 }
 
 .first-line {
+    position: absolute;
     top: 112px; left: 0;
 }
 
 .second-line {
+    position: absolute;
     top: 180px; left: 0;
 }
 
@@ -513,6 +520,7 @@ li { list-style: none; }
     height: 120px;
     font-size: 11px;
     position: relative;
+    margin-bottom: 8px;
 }
 
 .my-info p {
@@ -599,7 +607,7 @@ li { list-style: none; }
 }
 
 .maintain-login {
-    top: 92px; left: 30px;
+    top: 92px; left: 16px;
 }
 
 .check {
@@ -619,18 +627,21 @@ li { list-style: none; }
 
 .today-news {
     height: 142px;
+    margin-bottom: 7px;
 }
 
 .mini-ad {
-    width: 330px; height: 150px;
+    height: 150px;
+    margin-bottom: 4px;
 }
 
 .shopping-ad {
-    top: 0; left: 0;
+    margin-bottom: 8px;
     height: 884px;
 }
 
 .last-ad {
+    margin-bottom: 8px;
     height: 130px;
 }
 
