@@ -498,11 +498,11 @@ li { list-style: none; }
 }
 
 .list:hover .list-layout {
-  background-position: 0 0;
+  background-position: -201px -124px;
 }
 
 .setting:hover .setting-layout {
-  background-position: 0 0;
+  background-position: -55px 18px;
 }
 
 .layout a {
@@ -548,7 +548,7 @@ li { list-style: none; }
   width: 18px; height: 18px;
   margin-top: 0; margin-left: 0;
   background-image: url(https://s.pstatic.net/static/www/img/2017/sp_newscast_v170424.png);
-  background-position: -29px 19px;
+  background-position: -27px 18px;
 }
 
 .prev-next a {
@@ -735,9 +735,129 @@ li { list-style: none; }
     top: 92px; left: 209px;
 }
 
-.today-news {
+/* today-weather */
+
+.today-weather {
     height: 142px;
     margin-bottom: 7px;
+}
+
+.weather-title {
+  height: 33px;
+  border-bottom: 1px solid #ebeef3;
+}
+
+.left-weather-title {
+  float: left;
+  margin-top: 4px;
+  margin-left: 17px;
+}
+
+.right-weather-title {
+  float: right;
+}
+
+.right-weather a {
+  display: inline-block;
+  width: 100%; height: 100%;
+}
+
+.page {
+  font-size: 12px;
+  color: #888;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+.page span {
+  color: #000;
+}
+
+.today {
+  font-size: 14px;
+  color: #000;
+}
+
+.weather-bar {
+  font-size: 15px;
+  color: #e3e7ee;
+}
+
+.user-location {
+  font-size: 12px;
+  color: #888;
+}
+
+.weather-arw {
+  display: inline-block;
+  width: 5px; height: 9px;
+  background-image: url(https://s.pstatic.net/static/www/img/2017/sp_timesquare_v170424.png);
+  background-position: 21px -383px;
+}
+
+.right-weather-title>* {
+  float: left;
+}
+
+.right-weather-title li {
+  width: 33px; height: 33px;
+  border-left: 1px solid #ebeef3;
+  float: left;
+}
+
+.right-weather-title li span {
+  display: inline-block;
+  width: 6px; height: 11px;
+  background-image: url(https://s.pstatic.net/static/www/img/2017/sp_timesquare_v170424.png);
+  margin-top: 11px; margin-left: 13px;
+}
+
+.today-prev-icon {
+  background-position: 6px -310px;
+}
+
+.today-prev:hover .today-prev-icon {
+  background-position: 22px -310px;
+}
+
+.today-next-icon {
+  background-position: 6px -331px;
+}
+
+.today-next:hover .today-next-icon {
+  background-position: 22px -331px;
+}
+
+.weather-content {
+  height: 106px;
+  font-size: 14px;
+}
+
+.today-weather-icon {
+  display: inline-block;
+  width: 56px; height: 56px;
+  background-image: url(https://s.pstatic.net/static/www/img/2017/sp_timesquare_v170424.png);
+  background-position: 0 0;
+}
+
+.cur-tempr {
+  font-size: 30px;
+}
+
+.min-tempr {
+  font-size: 14px;
+}
+
+.max-tempr {
+  font-size: 14px;
+}
+
+.weather-content-top li {
+  float: left;
+}
+
+.weather-content-bottom li {
+  float: left;
 }
 
 .mini-ad {
