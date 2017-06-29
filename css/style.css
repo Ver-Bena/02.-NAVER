@@ -377,7 +377,7 @@ li { list-style: none; }
 }
 
 .union-news ul {
-    margin-top: 13px;
+    margin-top: 11px;
     margin-left: 9px;
 }
 
@@ -597,9 +597,78 @@ li { list-style: none; }
     height: 882px;
 }
 
+.article-title {
+  height: 45px;
+  border-bottom: 1px solid #ebeef3;
+}
+
+.article-title>* {
+  float: left;
+}
+
+.article-title-left {
+  width: 45px; height: 45px;
+  border-right: 1px solid #ebeef3;
+}
+
+.article-title-center {
+  width: 603px; height: 45px;
+  border-right: 1px solid #ebeef3;
+}
+
+.article-title-center li {
+  float: left;
+}
+
+.article-title-right {
+  width: 45px; height: 45px;
+  border-right: 1px solid #ebeef3;
+}
+
+.article-title-right li {
+  float: left;
+}
+
+.article-title-hamburger {
+  display: inline-block;
+  width: 20px; height: 14px;
+  background-image: url(https://s.pstatic.net/static/www/img/2017/sp_themecast_v170616b.png);
+  background-position: -369px -340px;
+}
+
 .last-article {
     height: 130px;
     margin-bottom: 8px;
+}
+
+.last-article li {
+  float: left;
+  margin-top: 20px;
+}
+
+.last-article div {
+  float: left;
+  margin-left: 16px;
+}
+
+.last-article-content {
+  margin-top: 7px;
+}
+
+.green-title {
+  font-size: 12px;
+  color: #00ab33;
+}
+
+.program-title {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #222;
+}
+
+.program-content {
+  font-size: 12px;
+  color: #444;
 }
 
 .news-stand-line {
@@ -829,35 +898,87 @@ li { list-style: none; }
 }
 
 .weather-content {
-  height: 106px;
-  font-size: 14px;
+    height: 106px;
 }
 
-.today-weather-icon {
+.weather-content-top {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.weather-content-top li {
+  float: left;
+  margin-right: 14px;
+}
+
+.cur-weather {
+  margin-top: 10px;
+}
+
+.cur-weather-icon {
   display: inline-block;
   width: 56px; height: 56px;
   background-image: url(https://s.pstatic.net/static/www/img/2017/sp_timesquare_v170424.png);
   background-position: 0 0;
 }
 
-.cur-tempr {
+.cur-tempr p {
+  float: left;
+}
+
+.cur-tempr-value {
   font-size: 30px;
 }
 
 .min-tempr {
-  font-size: 14px;
+  color: #1e96fc;
 }
 
 .max-tempr {
-  font-size: 14px;
+  color: #fe1a1a;
 }
 
-.weather-content-top li {
-  float: left;
+.etc-weather {
+  margin-top: 16px;
+}
+
+.fine-dust {
+  font-size: 12px;
+  margin-top: 7px;
+}
+
+.normal-fine-dust {
+  color: #00ab33;
+}
+
+.weather-content-bottom {
+  font-size: 12px;
+  margin-left: 20px;
 }
 
 .weather-content-bottom li {
   float: left;
+  margin-right: 8px;
+}
+
+.weather-content-bottom li a {
+}
+
+.to-naver-weather {
+  color: #2565d0;
+}
+
+.real-time-weather {
+  color: #000;
+}
+
+.weather-bottom-bar {
+  color: #e3e7ee;
+}
+
+.week-weather  {
+  color: #888;
 }
 
 .mini-ad {
