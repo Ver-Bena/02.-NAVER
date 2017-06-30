@@ -620,6 +620,66 @@ li { list-style: none; }
   float: left;
 }
 
+.article-title-center span {
+  display: inline-block;
+  background-image: url(https://s.pstatic.net/static/www/img/2017/sp_themecast_v170616b.png);
+}
+
+.article-passion-beauty {
+  width: 48px; height: 15px;
+  background-position: -115px -190px;
+}
+
+.article-mom-kids {
+  width: 38px; height: 15px;
+  background-position: 0px -271px;
+}
+
+.article-health {
+  width: 25px; height: 15px;
+  background-position: -403px -275px;
+}
+
+.article-webtoon {
+  width: 25px; height: 15px;
+  background-position: -210px 15px;
+}
+
+.article-game {
+  width: 25px; height: 15px;
+  background-position: -174px -398px;
+}
+
+.article-tv-etm {
+  width: 40px; height: 15px;
+  background-position: -174px -190px;
+}
+
+.article-music {
+  width: 25px; height: 15px;
+  background-position: -402px -225px;
+}
+
+.article-movie {
+  width: 25px; height: 15px;
+  background-position: -190px -271px;
+}
+
+.article-book-culture {
+  width: 37px; height: 15px;
+  background-position: 0 0;
+}
+
+.article-together-n {
+  width: 35px; height: 15px;
+  background-position: 0 0;
+}
+
+.article-tour-plus {
+  width: 25px; height: 15px;
+  background-position: 0 0;
+}
+
 .article-title-right {
   width: 45px; height: 45px;
   border-right: 1px solid #ebeef3;
