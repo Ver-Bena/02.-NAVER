@@ -609,15 +609,23 @@ li { list-style: none; }
 .article-title-left {
   width: 45px; height: 45px;
   border-right: 1px solid #ebeef3;
+  box-sizing: border-box;
 }
 
 .article-title-center {
   width: 603px; height: 45px;
   border-right: 1px solid #ebeef3;
+  box-sizing: border-box;
+}
+
+.article-title-center ul {
+  margin-top: 13px;
+  margin-left: 21px;
 }
 
 .article-title-center li {
   float: left;
+  padding-right: 19px;
 }
 
 .article-title-center span {
@@ -661,32 +669,39 @@ li { list-style: none; }
 }
 
 .article-movie {
-  width: 25px; height: 15px;
+  width: 37px; height: 15px;
   background-position: -190px -271px;
 }
 
 .article-book-culture {
-  width: 37px; height: 15px;
-  background-position: 0 0;
+  width: 35px; height: 15px;
+  background-position: -192px -271px;
 }
 
 .article-together-n {
   width: 35px; height: 15px;
-  background-position: 0 0;
+  background-position: -403px -75px;
 }
 
 .article-tour-plus {
-  width: 25px; height: 15px;
-  background-position: 0 0;
+  width: 35px; height: 15px;
+  background-position: -227px -364px;
 }
 
 .article-title-right {
-  width: 45px; height: 45px;
-  border-right: 1px solid #ebeef3;
+  width: 90px; height: 45px;
 }
 
 .article-title-right li {
+  width: 44px; height: 44px;
+  border-left: 1px solid #ebeef3;
   float: left;
+}
+.article-title-right span {
+  display: inline-block;
+  margin-top: 14px; margin-left: 18px;
+  width: 8px; height: 16px;
+  background-image: url(https://s.pstatic.net/static/www/img/2017/sp_newscast_v170424.png);
 }
 
 .article-title-hamburger {
@@ -694,6 +709,7 @@ li { list-style: none; }
   width: 20px; height: 14px;
   background-image: url(https://s.pstatic.net/static/www/img/2017/sp_themecast_v170616b.png);
   background-position: -369px -340px;
+  margin-top: 14px; margin-left: 12px;
 }
 
 .last-article {
