@@ -2,6 +2,7 @@
 
 * { margin: 0; padding: 0; text-decoration: none; }
 li { list-style: none; }
+a:hover { text-decoration: underline; }
 
 .text-bold { font-weight: bold; }
 
@@ -710,6 +711,127 @@ li { list-style: none; }
   background-image: url(https://s.pstatic.net/static/www/img/2017/sp_themecast_v170616b.png);
   background-position: -369px -340px;
   margin-top: 14px; margin-left: 12px;
+}
+
+.article-content>h3 {
+  margin-left: 15px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.article-content .webtoon-article-list {
+  margin-top: 15px; margin-left: 15px;
+}
+
+.article-content .webtoon-article-list li {
+  float: left;
+  width: 166px; height: 185px;
+  position: relative;
+  margin-right: 14px; margin-bottom: 19px;
+}
+
+.webtoon-article-logo {
+  background: #00c73c;
+  color: #fff;
+  font-size: 12px;
+}
+
+.webtoon-article-content {
+  position: absolute;
+  top: 20px; left: 17px;
+}
+
+.webtoon-article-title {
+  background-image: url(https://s.pstatic.net/static/www/img/2017/sp_themecast_v170616b.png);
+  background-position: -231px -93px;
+  width: 36px; height: 21px;
+}
+
+.article-content hr {
+  border: 1px solid #fff;
+  width: 10px;
+  margin: 10px 0;
+}
+
+.article-content a {
+  color: #fff;
+}
+
+.article-content a:hover {
+  text-decoration: underline;
+}
+
+.webtoon-articles {
+  font-size: 12px;
+}
+
+.green-label {
+  padding: 3px 5px;
+  background: #00c73c;
+  color: #fff;
+  position: absolute;
+  top: 0; left: 0;
+  z-index: 1;
+}
+
+.webtoon-thumbnail {
+  overflow: hidden;
+}
+
+.webtoon-thumbnail img {
+  width: 166px;
+  margin-bottom: 5px;
+  transform: scale(1);
+  transition: transform .5s ease;
+}
+
+.webtoon-thumbnail img:hover {
+  transform: scale(1.1);
+}
+
+.webtoon-summary {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.webtoon-footer {
+  color: #888;
+}
+
+.webtoon-footer-bar {
+  display: inline-block;
+  margin-top: 0;
+  width: 1px; height: 11px;
+  background: #e3e7ee;
+}
+
+.webtoon-event {
+  font-size: 12px;
+  margin-top: 0;
+  margin-left: 15px;
+}
+
+.webtoon-event li {
+  float: left;
+  width: 346px; height: 80px;
+  margin-right: 15px;
+}
+
+.webtoon-event li > * {
+  float: left;
+}
+
+.webtoon-event div {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.webtoon-event div p {
+  margin-bottom: 7px;
+}
+
+.webtoon-event div span {
+  color: #888;
 }
 
 .last-article {
