@@ -753,12 +753,8 @@ a:hover { text-decoration: underline; }
   margin: 10px 0;
 }
 
-.article-content a {
+.webtoon-article-content>a {
   color: #fff;
-}
-
-.article-content a:hover {
-  text-decoration: underline;
 }
 
 .webtoon-articles {
@@ -782,19 +778,21 @@ a:hover { text-decoration: underline; }
   width: 166px;
   margin-bottom: 5px;
   transform: scale(1);
-  transition: transform .5s ease;
+  transition: transform .3s ease;
 }
 
 .webtoon-thumbnail img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
-.webtoon-summary {
+.webtoon-summary a {
   font-weight: bold;
+  color: #222;
   margin-bottom: 5px;
 }
 
-.webtoon-footer {
+.webtoon-footer a {
+  display: inline-block;
   color: #888;
 }
 
@@ -821,17 +819,21 @@ a:hover { text-decoration: underline; }
   float: left;
 }
 
+.webtoon-event-content a {
+  color: #888;
+}
+
 .webtoon-event div {
   margin-top: 15px;
   margin-left: 10px;
 }
 
-.webtoon-event div p {
+.webtoon-event-name {
   margin-bottom: 7px;
 }
 
-.webtoon-event div span {
-  color: #888;
+.webtoon-event-name a {
+  color: #222;
 }
 
 .last-article {
@@ -849,22 +851,22 @@ a:hover { text-decoration: underline; }
   margin-left: 16px;
 }
 
-.last-article-content {
-  margin-top: 7px;
-}
-
-.green-title {
+.green-title a {
   font-size: 12px;
   color: #00ab33;
 }
 
-.program-title {
+.green-title a:hover {
+  text-decoration: none;
+}
+
+.program-title a {
   font-size: 14px;
   margin: 5px 0;
   color: #222;
 }
 
-.program-content {
+.program-content a {
   font-size: 12px;
   color: #444;
 }
@@ -1187,6 +1189,111 @@ a:hover { text-decoration: underline; }
 .shopping-ad {
     margin-bottom: 8px;
     height: 884px;
+    font-size: 12px;
+}
+
+.shopping-ad-left {
+  display: inline-block;
+  float: left;
+}
+
+.shopping-ad-right {
+  float: right;
+}
+
+.shopping-ad-header {
+  height: 44px;
+  padding: 13px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ebeef3;
+}
+
+.shopping-ad-item {
+  display: inline-block;
+  background-image: url(https://s.pstatic.net/static/www/img/2017/sp_shopping_v170424.png);
+}
+
+.shopping-ad-title {
+  width: 26px; height: 18px;
+  background-position: -49px 0;
+}
+
+.product {
+  width: 26px; height: 18px;
+  background-position: -37px -65px;
+}
+
+.shopping-mall {
+  width: 38px; height: 18px;
+  background-position: -49px -1px;
+}
+
+.men-product {
+  width: 28px; height: 18px;
+  background-position: 0 -65px;
+}
+
+.shopping-ad-header li {
+  padding-left: 25px;
+  float: left;
+}
+
+.shopping-ad-content {
+  height: 821px;
+  box-sizing: border-box;
+  padding: 11px;
+}
+
+.shopping-malls {
+  margin-bottom: 5px;
+}
+
+.shopping-malls li {
+  float: left;
+}
+
+.shopping-malls1 li {
+}
+
+.shopping-malls1 .shopping-malls-dot {
+  padding-right: 4px;
+}
+
+.shopping-malls2 li {
+}
+
+.shopping-malls2 .shopping-malls-dot {
+  padding-right: 2px;
+}
+
+.shopping-malls a {
+  color: #222;
+}
+
+.shopping-mall-line {
+  margin: 10px 0;
+  width: 100%; height: 1px;
+  background: #ebeef3;
+}
+
+.shopping-page li {
+  height: 25px;
+  float: left;
+}
+
+.shopping-page-number {
+  display: inline-block;
+}
+
+.shopping-page-move {
+  width: 25px;
+  border: 1px solid #e3e7ee;
+  display: inline-block;
+  background-image: url(https://s.pstatic.net/static/www/img/2017/sp_shopping_v170424.png);
+}
+
+.shopping-prev {
+
 }
 
 .last-ad {
