@@ -36,6 +36,11 @@ a:hover { text-decoration: underline; }
     margin: 10px 5px;
 }
 
+.start-naver {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
 .right-arw {
     display: inline-block;
     width: 4px; height: 8px;
@@ -47,7 +52,7 @@ a:hover { text-decoration: underline; }
     display: inline-block;
     width: 58px; height: 11px;
     background-image: url(../img/sp_main_v170424.png);
-    background-position: 82px 129px;
+    background-position: 82px 128px;
 }
 
 .junior-naver:hover {
@@ -59,12 +64,12 @@ a:hover { text-decoration: underline; }
     display: inline-block;
     width: 34px; height: 12px;
     background-image: url(../img/sp_main_v170424.png);
-    background-position: -76px -147px;
+    background-position: -76px -146px;
 }
 
 .happy-bean:hover {
     background-image: url(../img/sp_main_v170424.png);
-    background-position: -32px -147px;
+    background-position: -32px -146px;
 }
 
 .wrapper>span {
@@ -287,10 +292,10 @@ a:hover { text-decoration: underline; }
 }
 
 .header-nav-vl {
-    width: 1px;
-    height: 14px;
-    margin: 15px 8px 0;
-    background-color: #ebeef3;
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  background-color: #ebeef3;
 }
 
 .more {
@@ -1276,24 +1281,114 @@ a:hover { text-decoration: underline; }
   background: #ebeef3;
 }
 
+.shopping-page {
+  margin-left: 219px;
+  margin-bottom: 10px;
+}
+
 .shopping-page li {
-  height: 25px;
   float: left;
 }
 
 .shopping-page-number {
   display: inline-block;
+  margin-top: 5px; margin-right: 10px;
+  color: #888;
+}
+
+.shopping-page-number span {
+  color: #222;
 }
 
 .shopping-page-move {
-  width: 25px;
+  width: 25px; height: 25px;
   border: 1px solid #e3e7ee;
   display: inline-block;
-  background-image: url(https://s.pstatic.net/static/www/img/2017/sp_shopping_v170424.png);
+}
+
+.shopping-page-move:hover .shopping-prev {
+  background-position: -114px -29px;
+}
+
+.shopping-page-move:hover .shopping-next {
+  background-position: -98px -29px;
 }
 
 .shopping-prev {
+  display: inline-block;
+  width: 6px; height: 12px;
+  background-image: url(https://s.pstatic.net/static/www/img/2017/sp_shopping_v170424.png);
+  background-position: -98px -51px;
+  margin-top: 7px; margin-left: 8px;
+}
 
+.shopping-next {
+  display: inline-block;
+  width: 6px; height: 12px;
+  background-image: url(https://s.pstatic.net/static/www/img/2017/sp_shopping_v170424.png);
+  background-position: -114px -51px;
+  margin-top: 7px; margin-left: 8px;
+}
+
+.shopping-products a {
+  color: #222;
+}
+
+.shopping-products li {
+  float: left;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.shopping-products li:nth-child(2), .shopping-products li:nth-child(5), .shopping-products li:nth-child(8) {
+  padding: 0 13px;
+}
+
+.shopping-products img {
+  width: 94px;
+  transform: scale(1);
+  transition: transform .3s ease;
+}
+
+.shopping-products img:hover {
+  transform: scale(1.05);
+}
+
+.shopping-news {
+  height: 194px;
+  border-top: 1px solid #f1f3f6;
+  padding-top: 10px;
+  position: relative;
+}
+
+.shopping-news h4 {
+  padding-left: 6px;
+  border-left: 3px solid #9891e5;
+}
+
+.shopping-news-update {
+  width: 26px; height: 26px;
+  background-image: url(https://s.pstatic.net/static/www/img/2017/sp_shopping_v170424.png);
+  background-position: -37px -28px;
+  position: absolute;
+  top: 10px; right: 0;
+}
+
+.shopping-news li {
+  margin-top: 10px;
+}
+
+.shopping-news-title {
+  color: #8974d7;
+  padding-right: 12px;
+}
+
+.shopping-news-content {
+  color: #444;
+}
+
+.green-font {
+  color: #00ab33;
 }
 
 .last-ad {
