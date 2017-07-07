@@ -157,6 +157,13 @@ a:hover { text-decoration: underline; }
     float: left;
 }
 
+.nav-vl {
+  width: 1px;
+  height: 14px;
+  background-color: #ebeef3;
+  margin-top: 15px;
+}
+
 /* Navigation(green) */
 
 .green-nav {
